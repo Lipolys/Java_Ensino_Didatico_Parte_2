@@ -1,6 +1,6 @@
 package Capitulo6_Metodos.Exemplos;
 
-public class MetodoREcursivo {
+public class MetodoRecursivo {
     public static void main (String[] args) {
         for (int i = 0; i <= 10; i++) {
             System.out.println(i + "! = " + calcularFatorial(i));
