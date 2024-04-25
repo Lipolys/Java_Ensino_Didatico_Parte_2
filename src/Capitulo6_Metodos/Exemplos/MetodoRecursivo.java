@@ -8,7 +8,7 @@ public class MetodoRecursivo {
     }
 
     public static long calcularFatorial(long num) {
-        if (num <=1) {
+        if (num <= 1) {
             return (1);
         } else {
             return (num * calcularFatorial(num - 1));
