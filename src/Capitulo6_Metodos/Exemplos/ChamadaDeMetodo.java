@@ -2,7 +2,7 @@ package Capitulo6_Metodos.Exemplos;
 
 import javax.swing.*;
 
-public class ChamadaDeMetodos {
+public class ChamadaDeMetodo {
     public static void main (String[] args) {
         String nome = EntradaDeDados.lerString("Insira seu nome: ");
         int idade = EntradaDeDados.lerInteiro(0, 150, "Insira sua idade: ");
