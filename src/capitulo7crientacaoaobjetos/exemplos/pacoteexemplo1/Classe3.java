@@ -1,4 +1,4 @@
-package capitulo7crientacaoaobjetos.exemplos.pacoteexemplo;
+package capitulo7crientacaoaobjetos.exemplos.pacoteexemplo1;
 
 public class Classe3 {
     public static void main (String[] args){
