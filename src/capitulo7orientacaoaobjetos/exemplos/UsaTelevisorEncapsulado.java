@@ -1,4 +1,4 @@
-package capitulo7crientacaoaobjetos.exemplos;
+package capitulo7orientacaoaobjetos.exemplos;
 
 public class UsaTelevisorEncapsulado {
     public static void main (String[] args) {
