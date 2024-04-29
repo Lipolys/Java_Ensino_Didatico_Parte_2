@@ -17,6 +17,6 @@ public class Televisor {
     }
 
     public void mostrar () {
-        System.out.println("Volue: " + volume + "\nCanal: " + canal);
+        System.out.println("Volume: " + volume + "\nCanal: " + canal);
     }
 }
