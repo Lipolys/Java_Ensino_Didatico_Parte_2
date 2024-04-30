@@ -10,4 +10,8 @@ public class PessoaJuridica extends Pessoa{
     public String getCnpj() {
         return cnpj;
     }
+
+    public void mostraClasse () {
+        System.out.println ("Classe Pessoa Jurídica");
+    }
 }

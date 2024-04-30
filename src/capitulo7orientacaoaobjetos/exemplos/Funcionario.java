@@ -10,4 +10,8 @@ public class Funcionario extends PessoaFisica {
     public String getCartao () {
         return cartao;
     }
+
+    public void mostraClasse () {
+        System.out.println ("Classe Funcionário");
+    }
 }

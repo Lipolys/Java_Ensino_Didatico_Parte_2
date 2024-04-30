@@ -10,4 +10,8 @@ public class PessoaFisica extends Pessoa {
     public String getCpf() {
         return cpf;
     }
+
+    public void mostraClasse () {
+        System.out.println ("Classe Pessoa Física");
+    }
 }

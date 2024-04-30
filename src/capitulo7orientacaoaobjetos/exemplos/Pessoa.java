@@ -10,4 +10,8 @@ public class Pessoa {
     public String getNome() {
         return nome;
     }
+
+    public void mostraClasse () {
+        System.out.println ("Classe Pessoa");
+    }
 }
