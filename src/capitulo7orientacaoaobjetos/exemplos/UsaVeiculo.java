@@ -8,7 +8,7 @@ public class UsaVeiculo {
         carro.acelerar();
         System.out.println(carro.velocidade);
         carro.desligar();
-        carro.mostrarStatus();
+        carro.mostrarStatus();  
         System.out.println();
         Veiculo aviao = new Aviao();
         aviao.ligar();
