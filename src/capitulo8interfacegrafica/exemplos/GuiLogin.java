@@ -14,11 +14,12 @@ public class GuiLogin extends JFrame {
     private static GuiLogin frame;
 
     public GuiLogin () {
-        inicializaComponentes();
+        inicializarComponentes();
         definirEventos();
     }
 
-    private void inicializaComponentes () {
+    private void inicializarComponentes() {
+
         setTitle("Login do Sistema");
         setBounds(0, 0, 250, 200);
         setLayout(null);
@@ -51,7 +52,7 @@ public class GuiLogin extends JFrame {
                 String login = String.valueOf(tfLogin.getText());
                 if (login.equals("Java8") && senha.equals("Java8")){
                     frame.setVisible(false);
-                    //GuiMenuPrincipal.abrir();
+                    GuiMenuPrincipal.abrir();
                 } else {
                     JOptionPane.showMessageDialog(null, "Login ou senha incorretos!");
                 }
